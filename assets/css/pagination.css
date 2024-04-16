@@ -1,0 +1,28 @@
+
+      /* PAGINATION */
+      .pagination {
+        display: inline-block;
+      }
+
+      .pagination a {
+        margin-right: 1vw;
+        border-radius: 5px;
+        color: white;
+        background-color: #4E5174;
+        float: left;
+        padding: 0.5vw 1.5vw;
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-family: quicksand;
+      }
+
+      .pagination a.current {
+        background-color: #A40034;
+        color: white;
+      }
+
+      .pagination a:hover:not(.current) {
+        background-color: #28264C;
+        color: white;
+      }
+      /* PAGINATION */

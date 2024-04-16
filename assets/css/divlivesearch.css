@@ -1,0 +1,29 @@
+
+      .suggestionsearch{
+      	  background-color: #28264C;
+      	  padding-left: 10px;
+      	  position: absolute;
+          top: 5vw;
+          width: 49.8%;
+      	  height: auto;
+      	  font-family: Quicksand;
+      	  border-radius: 2px;
+      }
+       .suggestionsearch a{
+      	  text-decoration: none;
+      	  color: #E8EAE7;
+          padding: 0.5vw;
+      }
+
+        .nohoverlivesearch {
+          text-decoration: none;
+          color: #E8EAE7;
+          padding: 0.5vw;
+      }
+
+      .suggestionsearch a:hover {
+      	  text-decoration: none;
+      	  color:#E8EAE7;
+          padding: 0.5vw;
+
+      }

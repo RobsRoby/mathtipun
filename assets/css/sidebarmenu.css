@@ -1,0 +1,93 @@
+/* whole submenu */
+
+.❤ {
+  display: block;
+}
+
+/* whole submenu */
+
+.❤ ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 2vw;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* not to overflow */
+
+.🗂 {
+  display: inline-block;
+}
+
+/* titles */
+
+.🗂 a {
+  display: block;
+  background: #4E5174;
+  color: #E8EAE7;
+  text-decoration: none;
+  padding: .8em 1.8em;
+  font-size: 80%;
+  position: relative;
+}
+
+/* hover */
+
+.🗂 li:hover a, .🗂 ul > li > a, .🗂 ul > li > ul > li > a {
+  background: #DAE8FA;
+  color: #28264c;
+}
+
+/* active */
+
+.✉ a {
+  background: #DAE8FA;
+  color: #28264c;
+}
+
+.🗂 .headingtitle:hover a {
+  background: #4E5174;
+  color: #E8EAE7;
+}
+
+/* contain to hide */
+
+.🗂 li {
+  position: relative;
+}
+
+.🗂 li a:first-child:nth-last-child(2):before {
+  position: absolute;
+}
+
+/* submenu positioning */
+
+/* to hide */
+
+.🗂 ul {
+  position: absolute;
+  z-index: 1;
+  left: -99999em;
+}
+
+/* first child */
+
+.🗂 > li:hover > ul {
+  left: auto;
+  min-width: 100%;
+  position: absolute;
+  left: 100%;
+  top: 0%;
+}
+
+/* second child */
+
+.🗂 > li li:hover > ul {
+  left: 100%;
+  top: 0%;
+}
+

@@ -1,0 +1,30 @@
+                /* image zoom */
+                .close:hover, .close:focus {
+                  color: #000;
+                  text-decoration: none;
+                  cursor: pointer;
+
+                }
+
+                input[type=checkbox] {
+                  display: none;
+                  
+                }
+
+                .container img {
+                  transition: transform 0.25s ease;
+                  cursor: zoom-in;
+                }
+                .container img{
+                  cursor: zoom-in;
+                  transition: transform 0.25s ease;
+                }
+
+                input[type=checkbox]:checked ~ label > img {
+                  transform: scale(1.2);
+                  cursor: zoom-out;
+                  vertical-align: middle;
+                  alignment-baseline: central;
+                  position: absolute;
+                  right:13%;
+                }
